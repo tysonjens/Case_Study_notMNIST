@@ -1,10 +1,16 @@
 ## Comparison of CNN for MNIST and notMNIST data
 
+*A comparision of two recurrent neural networks that are optimized for slightly different datasets (MNIST and notMNIST). Model 1 is optimized for MNIST, and model 2 is optimized for notMNIST. Both models are fit to both sets of data, and training times, accuracy, and errors are compared.*
 
+#### Model 1 (optimized for MNIST)
+
+#### Model 2 (optimized for nonMNIST)
+
+#### Approach
 
 #### Results
 
-#### Learning 
+#### Learning
 
 #### Acknowledgments
 
