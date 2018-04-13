@@ -62,6 +62,7 @@ Bui and Chang propose a model with 5 convolutional layers, and 2 fully-connected
 #### Results
 
 Accuracy Scores
+
 |  | MNIST data | notMNIST data |
 |-------|--------|---------|
 | Model 1    | .992 | .938      |
