@@ -35,7 +35,7 @@ class PlotLearning(keras.callbacks.Callback):
         self.i += 1
         f, (ax1, ax2) = plt.subplots(1, 2, sharex=True)
 
-        clear_output(wait=True)
+        clear_output(wait=False)
 
         ax1.set_yscale('log')
         ax1.plot(self.x, self.losses, label="loss")
@@ -124,6 +124,8 @@ model.add(MaxPooling2D(pool_size=(2, 2)))
 model.add(Conv2D(64, (4, 4), activation='relu', padding='same'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
 ## 5
+# model.add(Conv2D(256, (4, 4), activation='relu', padding='same'))
+# model.add(MaxPooling2D(pool_size=(2, 2)))
 model.add(Dropout(0.5))
 model.add(Flatten())
 model.add(Dense(1024, activation='relu', kernel_regularizer=regularizers.l2(0.)))
