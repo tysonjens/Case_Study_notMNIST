@@ -4,7 +4,7 @@
 
 ![pipes](imgs/MNIST.png)
 
-*A comparision of two recurrent neural networks that are optimized for slightly different datasets (MNIST and notMNIST). Model 1 is optimized for MNIST, and model 2 is optimized for notMNIST. Both models are fit to both sets of data, and training times, accuracy, and errors are compared.*
+*A comparision of two convolutional neural networks that are optimized for slightly different datasets (MNIST and notMNIST). Model 1 is optimized for MNIST, and model 2 is optimized for notMNIST. Both models are fit to both sets of data, and training times, accuracy, and errors are compared.*
 
 ___
 
