@@ -107,7 +107,7 @@ ___
 Figure 5 - Errors we empathize with
 ![pipes](imgs/Funny_prediction_errors.png)
 
-*How accurate are your predictions on this not-so-random sample?""
+*How accurate are your predictions on this not-so-random sample?*
 
 ___
 
