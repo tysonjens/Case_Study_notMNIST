@@ -91,6 +91,8 @@ ___
 Figure 3 - Confusion Matrix of Model 2 on nonMNIST data
 ![pipes](imgs/real_pred.png)
 
+*"C" was the most mistaken class, while the model was most acccurate in predicting "F".*
+
 ___
 
 
@@ -98,10 +100,14 @@ Figure 4 - Most Frequent Errors
 
 ![pipes](imgs/confusion.png)
 
+*"C" is frequently mistaken for "G".*
+
 ___
 
 Figure 5 - Errors we empathize with
 ![pipes](imgs/Funny_prediction_errors.png)
+
+*How accurate are your predictions on this not-so-random sample?""
 
 ___
 
